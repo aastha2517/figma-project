@@ -48,6 +48,21 @@
     .d-xl-none{
         display: none;
     }
+    .justify-xl-center{
+        justify-content: center;
+    }
+
+    /*Hero Section*/
+
+    .hero-xl-content h1 {
+        font-size: 52px;
+    }
+    .text-xl-center{
+        text-align: center;
+    }
+    .hero-xl-card{
+        padding: 6px 0;
+    }
 }
 
 /*l*/
@@ -70,6 +85,18 @@
     .col-l-11{width:91.67%;}
     .col-l-12{width:100%;}
 
+    /*Hero Section*/
+
+    .hero-l-content h1 {
+        font-size: 43px;
+    }
+    .content-l{
+        font-size: 13px;
+    }
+    .hero-l-btn button {
+        padding: 5px 25px;
+        margin-left: 0px;
+    }
 }
 
 /*m*/
@@ -95,9 +122,20 @@
     .d-m-none{
         display: none;
     }
-
     .d-m-inline{
         display: inline;
+    }
+
+    /*Hero Section*/
+
+    .hero-m-content{
+        margin-left: 12%;
+    }
+    .hero-m-content p{
+        font-size: 13px;
+    }
+    .hero-m-content h1 {
+        font-size: 52px;
     }
 }
 
@@ -130,8 +168,20 @@
     .justify-s-between{
         justify-content: space-between;
     }
+
+    /*Header*/
+
     .more{
         font-size: 23px;
+    }
+
+    /*Hero Section*/
+
+    .hero-s-content p{
+        font-size: 14px;
+    }
+    .hero-s-content h1 {
+        font-size: 45px;
     }
 
 }
@@ -158,5 +208,14 @@
 
     .p-xs-10{
         padding: 0px 10px;
+    }
+    
+    /*Hero Section*/
+
+    .hero-xs-content p{
+        font-size: 18px;
+    }
+    .hero-xs-content h1 {
+        font-size: 50px;
     }
 }
