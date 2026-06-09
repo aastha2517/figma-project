@@ -48,6 +48,9 @@
 .justify-around{
 	justify-content: space-around;
 }
+.justify-evenly{
+	justify-content: space-evenly;
+}
 .justify-end{
 	justify-content: flex-end;
 }
@@ -163,7 +166,7 @@ nav ul li:hover{
 	position: relative;
 }
 .trip-planning{
-	margin: 8% 0;
+	margin: 8% 0 4% 0;
 }
 .trip-bg img{
 	width: 45%;
@@ -191,4 +194,26 @@ nav ul li:hover{
 	padding: 5px 18px;
 	font-size: 14px;
 	margin-left: 0;
+}
+.city-tour{
+	background-image: url('../images/city-tour.png');
+}
+.e-bike{
+	background-image: url('../images/electric-bike.jpg');
+}
+.skyscrapers{
+	background-image: url('../images/skyscraper.jpg');
+}
+.city-tour,.e-bike,.skyscrapers{
+	background-size :cover;
+	background-position :center;
+	background-repeat: no-repeat;
+	padding: 12px 0;
+	border-radius: 10px;
+}
+.city-tour p,.e-bike p,.skyscrapers p{
+	color: var(--light-color);
+	font-size: 17px;
+	font-weight: 700;
+
 }
