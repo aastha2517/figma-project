@@ -306,3 +306,6 @@ nav ul li:hover{
 .place-2 button{
 	background-color: var(--cyan);
 }
+.place-3 button{
+	background-color: var(--purpule);
+}
