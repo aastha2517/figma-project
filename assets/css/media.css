@@ -97,6 +97,9 @@
         padding: 5px 25px;
         margin-left: 0px;
     }
+
+    /*Trip Plan section*/
+
     /*.start-l-price{
         line-height: 1.1;
     }*/
@@ -145,8 +148,15 @@
     .hero-m-content h1 {
         font-size: 52px;
     }
+
+    /*Trip Plan section*/
+
     .city-m-tour p, .e-m-bike p, .skyscrapers-m p {    
         font-size: 12px;                           
+    }
+
+    .choose-trip-m-desc p{
+        font-size: 12px;
     }
 }
 
@@ -229,6 +239,9 @@
     .hero-xs-content h1 {
         font-size: 50px;
     }
+
+    /*Trip Plan section*/
+
     .city-xs-tour p, .e-xs-bike p, .skyscrapers-xs p {    
         font-size: 12px;
         padding: 5px 0;                           
