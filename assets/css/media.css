@@ -63,6 +63,12 @@
     .hero-xl-card{
         padding: 6px 0;
     }
+
+    /*Next Adventure*/
+
+    .adven-xl-desc{
+        padding: 0 6px;
+    }
 }
 
 /*l*/
@@ -85,13 +91,17 @@
     .col-l-11{width:91.67%;}
     .col-l-12{width:100%;}
 
+    .d-l-none{
+        display: none;
+    }
+
     /*Hero Section*/
 
     .hero-l-content h1 {
         font-size: 43px;
     }
     .content-l{
-        font-size: 13px;
+        font-size: 12px;
     }
     .hero-l-btn button {
         padding: 5px 25px;
@@ -100,9 +110,6 @@
 
     /*Trip Plan section*/
 
-    /*.start-l-price{
-        line-height: 1.1;
-    }*/
     .trip-l-planning{
         margin: 8% 0 4% 6%;
     }
@@ -155,8 +162,14 @@
         font-size: 12px;                           
     }
 
+    /*Choose Your Trip*/
+
     .choose-trip-m-desc p{
         font-size: 12px;
+    }
+    /*Next Adventure*/
+    .adven-card{
+        aspect-ratio: 17/23;
     }
 }
 

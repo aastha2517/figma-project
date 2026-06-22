@@ -68,6 +68,9 @@
 .gap-10{
 	gap: 10px;
 }
+.p-x-8{
+	padding: 0 8px;
+}
 
 /* Header */
 
@@ -150,7 +153,7 @@ nav ul li:hover{
 	margin: 5% 0 0 0;
 }
 .icon{
-	font-size: 24px;
+	font-size: 27px;
 	font-weight: 900;
 	color: var(--cyan);
 }
@@ -314,6 +317,7 @@ nav ul li:hover{
 	background-color: var(--purpule);
 }
 
+/*Choose Your Trip*/
 
 .choose-trip-card{
 	margin: 5% 0 10% 0;
@@ -343,18 +347,36 @@ nav ul li:hover{
 	color: var(--desc-color);
 	padding: 0 0 5% 0;
 }
-.hero-card-2 .icon{
+.choose-trip-card .icon{
 	color: #F3A46B;
 }
-.hero-card-2 .hero-btn button{
+.choose-trip-card .hero-btn button{
 	background-color:#F76570;
 }
-.hero-card-2{
+.choose-trip-card{
 	margin: 0 0 12% 0;
 }
 
+/* Next Adventure */
 
+.adven-content{
+	margin: 0 0 50px 0;
+}
 .adven-card{
 	background-color: pink;
-	padding: 0px 8px;
+	aspect-ratio: 10/12;
+	border-radius: 10px;
+	overflow: hidden;
+	position: relative;
+}
+.adven-card img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.adven-desc{
+	position: absolute;
+	bottom: 10px;
+	color: var(--light-color);
+	padding: 0 15px;
 }
