@@ -171,13 +171,19 @@
     .adven-card{
         aspect-ratio: 17/23;
     }
-    /*  */
+    /*Services*/
 
     .services-m-img{
         margin:15% 0 5% 0;
     }
     .services-m-content{
         margin: 0 0;
+    }
+
+    /*Travel Itineraries*/
+
+    .Itineraries-m-title h2{
+        font-size: 60px;
     }
 }
 
@@ -225,6 +231,13 @@
     .hero-s-content h1 {
         font-size: 45px;
     }
+
+    /*Travel Itineraries*/
+
+    .Itineraries-s-title h2{
+        font-size: 50px;
+    }
+
 
 }
 
