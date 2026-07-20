@@ -13,7 +13,7 @@
     .col-xxl-5{width:41.67%;}
     .col-xxl-6{width:50%;}
     .col-xxl-7{width:58.33%;}
-    .col-xxl-8{width:66.67;}
+    .col-xxl-8{width:66.67%;}
     .col-xxl-9{width:75%;}
     .col-xxl-10{width:83.33%;}
     .col-xxl-11{width:91.67%;}
@@ -39,7 +39,7 @@
     .col-xl-5{width:41.67%;}
     .col-xl-6{width:50%;}
     .col-xl-7{width:58.33%;}
-    .col-xl-8{width:66.67;}
+    .col-xl-8{width:66.67%;}
     .col-xl-9{width:75%;}
     .col-xl-10{width:83.33%;}
     .col-xl-11{width:91.67%;}
@@ -69,6 +69,12 @@
     .adven-xl-desc{
         padding: 0 6px;
     }
+
+    /*Travel Packages*/
+
+    .package-xl-3{
+        padding: 27% 0;
+    }
 }
 
 /*l*/
@@ -85,7 +91,7 @@
     .col-l-5{width:41.67%;}
     .col-l-6{width:50%;}
     .col-l-7{width:58.33%;}
-    .col-l-8{width:66.67;}
+    .col-l-8{width:66.67%;}
     .col-l-9{width:75%;}
     .col-l-10{width:83.33%;}
     .col-l-11{width:91.67%;}
@@ -117,6 +123,11 @@
         font-size: 15px;                           
     }
 
+    /*Travel Blog*/
+    .points-l p{
+        font-size: 14px;
+    }
+
 /*m*/
 
 @media(max-width:991.99px){
@@ -131,7 +142,7 @@
     .col-m-5{width:41.67%;}
     .col-m-6{width:50%;}
     .col-m-7{width:58.33%;}
-    .col-m-8{width:66.67;}
+    .col-m-8{width:66.67%;}
     .col-m-9{width:75%;}
     .col-m-10{width:83.33%;}
     .col-m-11{width:91.67%;}
@@ -142,6 +153,9 @@
     }
     .d-m-inline{
         display: inline;
+    }
+    .justify-m-between{
+        justify-content:space-between;
     }
 
     /*Hero Section*/
@@ -210,6 +224,9 @@
     .d-s-inline{
         display: inline;
     }
+    .d-s-block{
+        display: block;
+    }
     .d-s-none{
         display: none;
     }
@@ -238,6 +255,13 @@
         font-size: 50px;
     }
 
+    /*Travel Blog*/
+    .blog-s-point{
+        margin: 10% 0 0 0;
+    }
+    .points-m{
+        margin: 0 0 5% 0;
+    }
 
 }
 
@@ -255,7 +279,7 @@
     .col-xs-5{width:41.67%;}
     .col-xs-6{width:50%;}
     .col-xs-7{width:58.33%;}
-    .col-xs-8{width:66.67;}
+    .col-xs-8{width:66.67%;}
     .col-xs-9{width:75%;}
     .col-xs-10{width:83.33%;}
     .col-xs-11{width:91.67%;}
